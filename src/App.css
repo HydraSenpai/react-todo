@@ -1,6 +1,21 @@
+
 body {
   background-color:pink;
   font-size: 2em;
   font-family:arial;
-  margin:20px;
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  min-height:400px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 8px 8px 15px -7px rgba(0, 0, 0, 0.69);
 }
