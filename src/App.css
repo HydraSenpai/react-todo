@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 400px;
   min-height:400px;
   padding:5px;
@@ -18,4 +18,12 @@ body {
   align-items: center;
   border-radius: 10px;
   box-shadow: 8px 8px 15px -7px rgba(0, 0, 0, 0.69);
+}
+
+button {
+  background-color:rgb(247, 204, 211);
+  border:none;
+  border-radius: 5px;
+  padding:5px 15px;
+  margin-top:10px;
 }

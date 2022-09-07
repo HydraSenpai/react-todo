@@ -6,7 +6,7 @@ export class Card extends Component {
       <div className="card">
         <h1>To-do List</h1>
         <div className='todoList'>
-            hi
+            List item 1
         </div>
         <input type='text'></input>
         <button>Add to-do</button>
