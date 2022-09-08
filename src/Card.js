@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const TodoList = ['wash', 'clean'];
+const TodoList = ['sleep'];
 
 export default function Card() {
   const [todo, setTodo] = React.useState(TodoList);
