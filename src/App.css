@@ -44,4 +44,24 @@ button:hover {
 .todoList{
   font-size: 0.8em;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo__item {
+  display: flex;
+}
+
+.todo__item h2 {
+  margin: 0;
+}
+
+.todo__item-check {
+  margin-right: 10px;
+  zoom:2;
+}
+
+.todo__item-name {
+  display: flex;
+  align-items: center;
 }
